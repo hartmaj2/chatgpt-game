@@ -17,9 +17,17 @@ ChatGPT suggested Python Pygame module right away. (Maybe my history)
 - `pip freeze` doesn't show the default packages but only the newly installed ones
 - When I want to recreate I use `python3 -m pip install` with `-r, --requirement <file>    Install from the given requirements file. This option can be used multiple times. ` option
 
+
 # Side quest 2 - brew
 
 ## What is brew for
 - Brew manages software installed on my machine 
 - `brew update` downloads the metadata for what software should be updated etc. it doesn't download any package data, just metadata
 - `brew upgrade` uses the metadata to download the actual packages or remove old ones
+
+# Side quest 3 - learning with git
+
+## What is a remote
+- That is the repository elsewhere to which I want to push my data to be backed up
+- To setup what my remote is I use `git remote add <remote_name> <remote_url>`
+- To see a list of remotes use `git remote -v`
