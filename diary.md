@@ -14,7 +14,8 @@ ChatGPT suggested Python Pygame module right away. (Maybe my history)
 ## Usage
 - Created by running `pip -m venv <environment_name>` (the -m stands for module option, runs a module as a script)
 - Shows you list of all installed packages including the one already there by default `pip list` 
-- `pip freeze` doesn't show the default packages
+- `pip freeze` doesn't show the default packages but only the newly installed ones
+- When I want to recreate I use `python3 -m pip install` with `-r, --requirement <file>    Install from the given requirements file. This option can be used multiple times. ` option
 
 # Side quest 2 - brew
 
