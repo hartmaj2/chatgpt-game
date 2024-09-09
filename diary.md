@@ -37,3 +37,6 @@ ChatGPT suggested Python Pygame module right away. (Maybe my history)
 
 ## How to remove untracked files
 - use `git clean -n` then `git clean -f`
+
+## Working with .gitignore
+- Write `env/` instead ov `env` because writing `env` would not only ignore directories named `env` but also files
