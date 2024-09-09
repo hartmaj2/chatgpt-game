@@ -31,3 +31,9 @@ ChatGPT suggested Python Pygame module right away. (Maybe my history)
 - That is the repository elsewhere to which I want to push my data to be backed up
 - To setup what my remote is I use `git remote add <remote_name> <remote_url>`
 - To see a list of remotes use `git remote -v`
+
+## How do I authenticate
+- Didn't really find answer to this question
+
+## How to remove untracked files
+- use `git clean -n` then `git clean -f`
